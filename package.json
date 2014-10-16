@@ -21,7 +21,6 @@
     "url": ""
   },
   "dependencies": {
-    "immutable": "^2.4.0",
     "lodash": "^2.4.1"
   }
 }
