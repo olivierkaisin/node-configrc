@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@github.com:olivierkaisin/node-configrc.git"
   },
   "dependencies": {
     "lodash": "^2.4.1"
