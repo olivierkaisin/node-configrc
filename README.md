@@ -10,10 +10,7 @@ Simple `.*rc` configuration module designed for command line applications.
 ```javascript
 'use strict';
 
-var configrc = require('configrc');
-
-
-var myconf = configrc.make('myapp');
+var myconf = require('configrc').make('myapp');
 
 myconf.set('login', 'jack');
 myconf.set('password', '123456');
@@ -34,10 +31,7 @@ Saves in `~/.myapprc` the following JSON:
 ```javascript
 'use strict';
 
-var configrc = require('configrc');
-
-
-var myconf = configrc.make('myapp');
+var myconf = require('configrc').make('myapp');
 
 var login = myconf.get('login'),
     password = myconf.get('password');
@@ -52,10 +46,7 @@ var login = myconf.get('login'),
 ```javascript
 'use strict';
 
-var configrc = require('configrc');
-
-
-var myconf = configrc.make('myapp');
+var myconf = require('configrc').make('myapp');
 
 myconf.destroy();
 ```
