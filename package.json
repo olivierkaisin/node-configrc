@@ -1,7 +1,7 @@
 {
   "name": "configrc",
   "version": "0.1.1",
-  "description": "JSON-based configuration store in .*rc files",
+  "description": "JSON-based configuration .*rc files",
   "main": "index.js",
   "scripts": {
     "test": "npm run jshint && npm run mocha",
